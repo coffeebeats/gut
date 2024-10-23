@@ -182,12 +182,11 @@ class MouseDraw:
 # ##############################################################################
 #
 # ##############################################################################
-var _utils = load('res://addons/gut/utils.gd').get_instance()
 var InputFactory = load("res://addons/gut/input_factory.gd")
 
 const INPUT_WARN = 'If using Input as a reciever it will not respond to *_down events until a *_up event is recieved.  Call the appropriate *_up event or use hold_for(...) to automatically release after some duration.'
 
-var _lgr = _utils.get_logger()
+var _lgr = GutUtils.get_logger()
 var _receivers = []
 var _input_queue = []
 var _next_queue_item = null
@@ -322,6 +321,9 @@ func _new_defaulted_mouse_button_event(position, global_position):
 func _new_defaulted_mouse_motion_event(position, global_position):
 	var event = InputEventMouseMotion.new()
 	_apply_last_position_and_set_last_position(event, position, global_position)
+	for key in _pressed_mouse_buttons:
+		if(_pressed_mouse_buttons[key].pressed):
+			event.button_mask += key
 	return event
 
 
