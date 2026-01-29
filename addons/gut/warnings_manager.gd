@@ -65,13 +65,6 @@ static func enable_warnings(should=true):
 	ProjectSettings.set(str(GDSCRIPT_WARNING, 'enable'), should)
 
 
-## Turn on/off excluding addons.  Use reset_warnings to restore the original value.
-static func exclude_addons(should=true):
-	if(disabled):
-		return
-	ProjectSettings.set(str(GDSCRIPT_WARNING, 'exclude_addons'), should)
-
-
 ## Resets warning settings to what they are set to in Project Settings
 static func reset_warnings():
 	apply_warnings_dictionary(_project_warnings)

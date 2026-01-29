@@ -8,7 +8,7 @@ var godot_default_warnings = {
   "assert_always_false": 1,             "assert_always_true": 1,  			"confusable_identifier": 1,
   "confusable_local_declaration": 1,    "confusable_local_usage": 1,  		"constant_used_as_function": 1,
   "deprecated_keyword": 1,              "empty_file": 1,  					"enable": true,
-  "exclude_addons": true, 				"function_used_as_property": 1,  	"get_node_default_without_onready": 2,
+  						 				"function_used_as_property": 1,  	"get_node_default_without_onready": 2,
   "incompatible_ternary": 1,  			"inference_on_variant": 2,  		"inferred_declaration": 0,
   "int_as_enum_without_cast": 1,  		"int_as_enum_without_match": 1,  	"integer_division": 1,
   "narrowing_conversion": 1,  			"native_method_override": 2,  		"onready_with_export": 2,
@@ -24,7 +24,7 @@ var godot_default_warnings = {
 }
 
 var gut_default_changes = {
-  "exclude_addons": false, 				"redundant_await": 0,
+  "redundant_await": 0,
 }
 
 var warning_settings = {}

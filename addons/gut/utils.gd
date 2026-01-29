@@ -208,7 +208,6 @@ static var version_numbers = VersionNumbers.new(
 
 
 static var warnings_at_start := { # WarningsManager dictionary
-	exclude_addons = true
 }
 
 static var warnings_when_loading_test_scripts := { # WarningsManager dictionary
