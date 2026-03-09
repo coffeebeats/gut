@@ -1,7 +1,6 @@
 ![gut logo](images/gut_logo_256x256.png)
 
 
-If you'd like to support me you can [buy me a coffee](https://buymeacoffee.com/bitwes).
 
 # GUT
 GUT (Godot Unit Test) is a unit testing framework for the [Godot Engine](https://godotengine.org/).  It allows you to write tests for your gdscript in gdscript.
@@ -10,30 +9,29 @@ GUT versions 9.x are for Godot 4.x.<br>
 GUT versions 7.x (currently 7.4.2) are for Godot 3.x.
 
 
+# Support
+If you'd like to support GUT development you can [buy me a coffee](https://buymeacoffee.com/bitwes).
 
 
-# Documentation
-Documentation is hosted at https://gut.readthedocs.io/
-* [Latest](https://gut.readthedocs.io/en/latest)
-* [GUT 9.x for Godot 4](https://gut.readthedocs.io/en/v9.5.1/Quick-Start.html)
-* [GUT 7.x for Godot 3](https://gut.readthedocs.io/en/v7.4.2/Quick-Start.html)
-
-
+# Wiki
+Documentation is hosted at https://gut.readthedocs.io/, you can find release-specific links below.
 
 
 # Version Links
-There are only two versions of GUT in the Asset Library (one for Godot 3 and one for Godot 4).  GUT will not appear in the Asset Library if your current version of Godot is less than GUT's required version.  Here's the highest version of GUT per Godot version.
+There are only two versions of GUT in the Asset Library (one for Godot 3 and one for Godot 4).  GUT will not appear in the Asset Library if your current version of Godot is less than the required version of GUT in the Asset Library.
 
-|GUT|Minimum Required <br>GodotVersion||||
-|-|-|-|-|-|
-|4_6 branch|4.6|[repo](https://github.com/bitwes/Gut/tree/godot_4_6)|[download](https://github.com/bitwes/Gut/archive/refs/heads/godot_4_6.zip)||
-|Main Branch |4.5.*| | |
-|[9.5.1](https://github.com/bitwes/Gut/releases/tag/v9.5.1)|4.5|[repo](https://github.com/bitwes/Gut/tree/v1)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v9.5.1.zip)|[Asset Library](https://godotengine.org/asset-library/asset/1709)|
-|[9.4.0](https://github.com/bitwes/Gut/releases/tag/v9.4.0)|4.3|[repo](https://github.com/bitwes/Gut/tree/v9.4.0)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v9.4.0.zip)||
-|[9.3.0](https://github.com/bitwes/Gut/releases/tag/v9.3.0)|4.2|[repo](https://github.com/bitwes/Gut/tree/v9.3.0)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v9.3.0.zip)||
-|[9.1.1](https://github.com/bitwes/Gut/releases/tag/v9.1.1)|4.1|[repo](https://github.com/bitwes/Gut/tree/v9.1.1)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v9.1.1.zip)||
-|[9.0.1](https://github.com/bitwes/Gut/releases/tag/v9.0.1)|4.0|[repo](https://github.com/bitwes/Gut/tree/v9.0.1)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v9.0.1.zip)||
-|[7.4.3](https://github.com/bitwes/Gut/releases/tag/v7.4.3)|3.5|[repo](https://github.com/bitwes/Gut/tree/v7.4.3)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v7.4.3.zip)|[Asset Library](https://godotengine.org/asset-library/asset/54)|
+You can download/clone earlier versions of GUT using the links below.
+
+|GUT Version|Valid Godot Version|||||
+|-|-|-|-|-|-|
+|Main Branch |4.6.x| |[download](https://github.com/bitwes/Gut/archive/refs/heads/main.zip) | | [wiki](https://gut.readthedocs.io/en/latest/)|
+|[9.6.0](https://github.com/bitwes/Gut/releases/tag/v9.6.0)|4.6.x|[repo](https://github.com/bitwes/Gut/tree/v9.6.0)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v9.6.0.zip)|[Asset Library](https://godotengine.org/asset-library/asset/1709)|[wiki](https://gut.readthedocs.io/en/v9.6.0)|
+|[9.5.0](https://github.com/bitwes/Gut/releases/tag/v9.5.0)|4.5.x|[repo](https://github.com/bitwes/Gut/tree/v9.5.0)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v9.5.0.zip)||[wiki](https://gut.readthedocs.io/en/v9.5.0/)|
+|[9.4.0](https://github.com/bitwes/Gut/releases/tag/v9.4.0)|4.3.x - 4.4.x|[repo](https://github.com/bitwes/Gut/tree/v9.4.0)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v9.4.0.zip)||[wiki](https://gut.readthedocs.io/en/v9.4.0/)|
+|[9.3.0](https://github.com/bitwes/Gut/releases/tag/v9.3.0)|4.2.x|[repo](https://github.com/bitwes/Gut/tree/v9.3.0)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v9.3.0.zip)||[wiki](https://gut.readthedocs.io/en/9.3.1/)|
+|[9.1.1](https://github.com/bitwes/Gut/releases/tag/v9.1.1)|4.1.x|[repo](https://github.com/bitwes/Gut/tree/v9.1.1)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v9.1.1.zip)|||
+|[9.0.1](https://github.com/bitwes/Gut/releases/tag/v9.0.1)|4.0.x|[repo](https://github.com/bitwes/Gut/tree/v9.0.1)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v9.0.1.zip)|||
+|[7.4.3](https://github.com/bitwes/Gut/releases/tag/v7.4.3)|3.5.x|[repo](https://github.com/bitwes/Gut/tree/v7.4.3)|[download](https://github.com/bitwes/Gut/archive/refs/tags/v7.4.3.zip)|[Asset Library](https://godotengine.org/asset-library/asset/54)|[wiki](https://gut.readthedocs.io/en/v7.4.2/)|
 
 To install from the zip link:
 * Download the zip and extract it
