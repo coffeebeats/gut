@@ -6,23 +6,17 @@ on:
       - main
   workflow_dispatch:
 
-defaults:
-  run:
-    shell: bash
-
 permissions:
   contents: write
 
 jobs:
-  release-branch:
+  publish:
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
 
-      - uses: coffeebeats/godot-infra/package-addon@v5
+      - uses: coffeebeats/godot-infra/actions/package-addon@v6
         with:
           subfolder: gut
-          target-branch: "godot-v4.7"
-          godot-editor-version: v4.7-stable

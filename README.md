@@ -1,3 +1,6 @@
+> [!NOTE]
+> This is [@coffeebeats](https://github.com/coffeebeats)' fork of [bitwes/Gut](https://github.com/bitwes/Gut). Each push to `main` publishes `addons/gut` to the [`dist`](https://github.com/coffeebeats/gut/tree/dist) branch, reimported with the Godot version in [`.godot-version`](./.godot-version). Add it to a project with `git submodule add -b dist https://github.com/coffeebeats/gut addons/gut`. Supported Godot versions are upstream's; see [Version Links](#version-links).
+
 ![gut logo](images/gut_logo_256x256.png)
 
 
